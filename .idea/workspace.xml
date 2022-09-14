@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92bdd102-1f12-4411-acfe-9670b54249e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pfc/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/sanctum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/resources/views/components/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pfc/vite.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pfc/resources/js/bootstrap.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/pfc/vite.config.js" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectId" id="2Ejz1JaPrBlijYk7QbuAwefHc06" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Vinícius FM/Documents/code/CursoLaravel/Nova pasta/PFC-SiteDeAnimes",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MTConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92bdd102-1f12-4411-acfe-9670b54249e1" name="Changes" comment="" />
+      <created>1663123564832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663123564832</updated>
+      <workItem from="1663123566492" duration="2475000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
