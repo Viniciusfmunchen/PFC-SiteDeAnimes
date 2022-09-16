@@ -22,9 +22,28 @@ class AnimesController extends Controller
     public function store(Request $request)
     {
         $anime = Anime::create($request->all());
-        $anime['image'] = $request->image->store('animes');
 
         return to_route('animes.index');
 
+    }
+
+    public function destroy(Anime $anime){
+        $anime->delete();
+
+        return to_route('animes.index');
+    }
+
+    public function edit(Anime $anime)
+    {
+        return view('animes.edit')
+            ->with('anime', $anime);
+    }
+
+    public function update(Request $request, Anime $anime)
+    {
+        $anime->fill($request->all());
+        $anime->save();
+
+        return to_route('animes.index');
     }
 }

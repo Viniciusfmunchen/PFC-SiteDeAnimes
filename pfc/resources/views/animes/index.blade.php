@@ -1,32 +1,45 @@
 <x-layout title="Listagem animes">
-    <table class="table">
+
+        <a href="{{ route('animes.create')}}" class="btn btn-warning mt-4 mb-4">Criar anime</a>
+
+    <table class="table table-striped">
         <thead>
         <tr>
-            <th scope="col">#</th>
+            <th scope="col">Capa</th>
             <th scope="col">Nome</th>
             <th scope="col">Lancamento</th>
-            <th scope="col">Episodios</th>
-            <th scope="col">Temporadas</th>
-            <th scope="col">Estudio</th>
+            <th scope="col">Qt. Eps</th>
+            <th scope="col">Qt. Temps</th>
+            <th scope="col">Estudios</th>
             <th scope="col">Autores</th>
             <th scope="col">Sinopse</th>
-            <th scope="col">Capa</th>
+            <th scope="col">Editar</th>
+            <th scope="col">Excluir</th>
         </tr>
         </thead>
         <tbody>
-        @foreach( $animes as $anime)
-        <tr>
-            <th scope="row">{{$anime->id}}</th>
-            <td>{{$anime->name}}</td>
-            <td>{{$anime->date}}</td>
-            <td>{{$anime->episodes}}</td>
-            <td>{{$anime->seasons}}</td>
-            <td>{{$anime->studio}}</td>
-            <td>{{$anime->authors}}</td>
-            <td>{{$anime->synopsis}}</td>
-            <td><img src="{{url('storage/{$anime->image}')}}" alt="{{$anime->name}}"></td>
+        @foreach ($animes as $anime)
+        <tr style="max-height: 100px">
+
+                <th><img src="{{$anime->image}}" alt="{{$anime->name}}"></th>
+                <th>{{$anime->name}}</th>
+                <th>{{$anime->date}}</th>
+                <th>{{$anime->episodes}}</th>
+                <th>{{$anime->seasons}}</th>
+                <th>{{$anime->studio}}</th>
+                <th>{{$anime->authors}}</th>
+                <th>{{$anime->synopsis}}</th>
+                <th><a href="{{route('animes.edit', $anime->id)}}" class="btn btn-primary btn-sm" style="height: 30px; width: 30px">✎</a></th>
+                <th><form action="{{route('animes.destroy', $anime->id)}}" method="POST" class="ms-2">
+                    @csrf
+                    @method('DELETE')
+                    <button type="submit" class="btn btn-danger btn-sn" style="width: 30px; height: 30px">
+                        🗑
+                    </button>
+                </form></th>
+
+            @endforeach
         </tr>
-        @endforeach
         </tbody>
     </table>
 </x-layout>

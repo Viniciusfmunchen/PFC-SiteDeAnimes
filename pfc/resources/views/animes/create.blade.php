@@ -1,5 +1,5 @@
 <x-layout title="Novo Anime">
-    <form action="{{ route('animes.store') }}" method="POST" enctype="multipart/form-data">
+    <form action="{{route('animes.store')}}" method="POST">
         @csrf
         <div class="row mt-3">
             <div class="form-group col-8">
@@ -39,10 +39,10 @@
         </div>
         <div class="row mt-3">
             <div class="form-group col-12">
-                <label for="image" class="form-label">Imagem:</label>
-                <input type="file" name="image" id="image" class="form-control-file">
+                <label for="image" class="form-label">Link da Imagem:</label>
+                <input type="text" name="image" id="image" class="form-control">
             </div>
         </div>
-        <input type="submit" class="btn btn-success">
+        <input type="submit" class="btn btn-success mt-3">
     </form>
 </x-layout>
