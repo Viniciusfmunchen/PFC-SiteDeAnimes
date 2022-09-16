@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92bdd102-1f12-4411-acfe-9670b54249e1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfc/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfc/app/Http/Controllers/AnimesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfc/app/Http/Controllers/AnimesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfc/database/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfc/resources/views/animes/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfc/resources/views/animes/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfc/resources/views/animes/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfc/resources/views/animes/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfc/resources/views/animes/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfc/resources/views/animes/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfc/resources/views/components/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfc/resources/views/components/layout.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="92bdd102-1f12-4411-acfe-9670b54249e1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +168,7 @@
       <updated>1663123564832</updated>
       <workItem from="1663123566492" duration="2475000" />
       <workItem from="1663176457571" duration="9819000" />
-      <workItem from="1663365876936" duration="5277000" />
+      <workItem from="1663365876936" duration="5647000" />
     </task>
     <servers />
   </component>
