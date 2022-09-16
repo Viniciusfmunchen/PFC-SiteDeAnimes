@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="92bdd102-1f12-4411-acfe-9670b54249e1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Controllers/AnimesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pfc/app/Http/Requests/SUAnimeRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pfc/app/Models/Anime.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pfc/database/migrations/2022_09_14_202812_animes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pfc/resources/views/animes/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pfc/resources/views/animes/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pfc/resources/views/animes/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfc/app/Http/Controllers/HomeController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfc/resources/views/components/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfc/resources/views/components/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfc/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pfc/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/pfc/routes/web.php" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/pfc/composer.json</pharConfigPath>
-    <execution />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/pfc/resources/js/bootstrap.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/pfc/resources/views/animes/index.blade.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" root2="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/pfc/routes/web.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/pfc/vite.config.js" root0="SKIP_INSPECTION" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/pfc/vendor/mockery/mockery" />
       <path value="$PROJECT_DIR$/pfc/vendor/laravel/tinker" />
@@ -146,64 +111,12 @@
       <path value="$PROJECT_DIR$/pfc/vendor/laravel/sanctum" />
     </include_path>
   </component>
-  <component name="ProjectId" id="2Ejz1JaPrBlijYk7QbuAwefHc06" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="PhpProjectSharedConfiguration">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Vinícius FM/Documents/code/CursoLaravel/Nova pasta/PFC-SiteDeAnimes",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "Settings.Markdown",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Vinícius FM\Documents\code\CursoLaravel\Nova pasta\PFC-SiteDeAnimes\pfc\resources\views\animes" />
-    </key>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="92bdd102-1f12-4411-acfe-9670b54249e1" name="Changes" comment="" />
-      <created>1663123564832</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1663123564832</updated>
-      <workItem from="1663123566492" duration="2475000" />
-      <workItem from="1663176457571" duration="9819000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/pfc/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
 </project>
