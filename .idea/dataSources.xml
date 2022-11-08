@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="database" uuid="8c6e801f-c421-4247-a43d-2131cabe3c08">
+    <data-source source="LOCAL" name="SokaAnimes" uuid="fe1fea97-44d9-406f-8304-0507e3dd5d4e">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\Vinícius FM\Documents\code\CursoLaravel\Nova pasta\PFC-SiteDeAnimes\pfc\database\database.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:C:\Users\Vinícius FM\Documents\code\CursoLaravel\Nova pasta\PFC-SiteDeAnimes\projeto\database\database.sqlite</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
       <libraries>
         <library>
